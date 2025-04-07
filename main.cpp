@@ -54,7 +54,6 @@ int main() {
     if (if_graph_seq) {
       std::cout << "是图序列" << std::endl;
     } else {
-      std::cout << "不是图序列" << std::endl;
       return 0;
     }
   }
@@ -109,7 +108,7 @@ bool judge_if_graph_seq(std::vector<int> &seq) {
     return false;
   }
 
-  return true;
+  return false;
 }
 
 void bubble_sort(std::vector<int> &seq) {
