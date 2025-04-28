@@ -101,11 +101,9 @@ bool judge_if_graph_seq(std::vector<int> &seq) {
     if (non_negative(seq)) {
       judge_if_graph_seq(seq);
     } else {
-      std::cout << "不是图序列" << std::endl;
       return false;
     }
   } else {
-    std::cout << "不是图序列" << std::endl;
     return false;
   }
 
